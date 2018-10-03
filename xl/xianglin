@@ -1,0 +1,15 @@
+<!-- specifies html version -->
+<html lang="en">
+<head>
+<!-- the head section includes info about the html document and links -->
+<meta name="viewport" content="initial-scale=1">
+<!-- does not scale down page in small viewports -->
+<title>MMP 200 website</title>
+<!-- title of html window/tab -->
+<link rel="stylesheet" hre="style.css">
+<!-- link to stylesheet file -->
+</head>    
+<body>
+<!-- the body element represents the page. All page element are inside the body -->    
+
+</body>    
