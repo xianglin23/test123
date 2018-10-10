@@ -1,0 +1,97 @@
+*{
+  margin:0;
+}
+
+html{
+    font-size:100%; /* whatever font size is set by the brower*/
+    background-color: #dfe2ea;
+}
+
+body{
+    font-family: "roboto", sans-serif;
+    font-size:1rem;
+}
+
+#wrapper{
+    max-width:1200px; /* if viewport is smaller than 1200px the width will be 100% of viewport's */
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header{
+    background-color: #d3dde6;
+    height:200px;
+}
+
+header{
+    color:#8ca3bd;
+}
+h1{
+    font-weight: 300;
+    front-size:4rem;
+}
+
+h2, h3{
+    font-sie:1.5rem;
+    font-weight: 400;
+}
+
+h3{
+    color:#8ca3bd;
+    background-color: #bcccda;
+    height:34px;
+    border-bottom:solid 8px #b0c7d9;
+    padding-left:16px;
+    padding-top:30px;
+    margin-bottom:24px;
+}
+#content{
+    color:#8ca3bd;
+    display: flex;
+    flex-direction:column; /* items arrnged vertically */
+}
+
+.content-item{
+    color:#8ca3bd;
+    padding-left:16px;
+    padding-right:16px;
+    margin-bottom:32px;
+}
+
+#work img{
+    width:100%; 
+}
+
+
+/* ******* web version ******* */
+
+
+@media(min-width:768px){
+
+h1{
+    font-size:6rem;
+}
+
+#content{
+    flex-direction:row; /* items arranged horizontally */
+}
+    
+    #work{
+        width: 75%
+    }
+    
+    #about{
+        width: 25%
+    }
+    
+    
+    ul{
+        font-size: 2rem;
+} 
+    /* closing media query */
+
+
+@media(max-width:640px){
+    
+    
+}
